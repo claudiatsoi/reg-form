@@ -1,0 +1,18 @@
+/* Override some character for Microsoft JhengHei */
+@font-face {
+  font-family: 'Noto Sans HK';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./NotoSansHK-Regular-zh-fixes.woff2) format('woff2');
+  unicode-range: U+78A7, U+7B75, U+7DB0; /* 碧, 筵, 綰 */
+}
+
+@font-face {
+  font-family: 'Noto Sans HK';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./NotoSansHK-Regular-zh-fixes.woff2) format('woff2');
+  unicode-range: U+78A7, U+7B75, U+7DB0; /* 碧, 筵, 綰 */
+}
